@@ -1,10 +1,15 @@
 
+# Secrets and virtual environments
+.env
 .venv/
+venv/
+
+# Python
 __pycache__/
 *.py[cod]
-.env
-.env.*
-!.env.example
-.DS_Store
+
+# Local editor settings
+.vscode/
+
+# Local vector database
 chroma_db/
-*.sqlite3
